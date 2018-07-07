@@ -156,10 +156,10 @@ am_api = tweepy.API(am_auth)
 
 apis = [um_api, am_api]
 
-dataset_path = 'dataset/dataset'
-log_path = 'dataset/logs'
-index_path = 'dataset/days'
-main_index = 'dataset/release.txt'
+dataset_path = 'datasets/dataset'
+log_path = 'datasets/logs'
+index_path = 'datasets/days'
+main_index = 'datasets/release.txt'
 
 #retrieve_tweets(dataset_path, log_path, index_path, apis)
 #count_tweets(dataset_path, log_path)

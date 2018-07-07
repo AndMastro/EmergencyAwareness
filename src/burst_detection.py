@@ -219,7 +219,7 @@ def get_and_evaluate(dataset_file, file_name_ex, bursty, window_size_minutes = 1
 
 #main of module
 def evaluate(train = False):
-    dataset_path = 'dataset/dataset'
+    dataset_path = 'datasets/dataset'
     model_path = 'models/model_expectation_bd'
     test = '2012-10-29.txt'
     dataset_files = get_files_in_dir(dataset_path)
