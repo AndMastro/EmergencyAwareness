@@ -136,17 +136,17 @@ def retrieve_tweets(dataset_path, log_path, index_path, apis, from_main = False,
 
 #Loading twitter APIs
 
-um_consumer_key = "SCGLGW0n7g6LbFqT4IZj3HX27"
-um_consumer_secret = "WaiJpI4kQuFWRLCE4jb5FH2aTwNX9TSi7CrOfVNO97wlYN1whV"
-um_access_token = "996714080588222469-mygaT8BVVY5jKlhRubJgPiM2s8xw9d8"
-um_access_token_secret = "ZOtB0TsAftlVCnGJi8C0dYxQgTKvNSDZLRcgk6uIGiI1B"
+um_consumer_key = ""
+um_consumer_secret = ""
+um_access_token = ""
+um_access_token_secret = ""
 um_auth = tweepy.OAuthHandler(um_consumer_key, um_consumer_secret)
 um_auth.set_access_token(um_access_token, um_access_token_secret)
 
-am_consumer_key = "4yQ5nqYAqX5UNouZj4wP4mbLT"
-am_consumer_secret = "OyJGOIf8cQRT4fkHmMa5hmlmH6cymIDSJPDYHkxQTYzCc8NIiO"
-am_access_token = "219654730-JEaFbbhaMC3KPx8WUYcsHEXAPSq0hF7IjmnzU8Fb"
-am_access_token_secret = "QBLhN9ex5KvoqKZI6UPD6XWIlmm2T7QdLHo9DkESirjOQ"
+am_consumer_key = ""
+am_consumer_secret = ""
+am_access_token = ""
+am_access_token_secret = ""
 am_auth = tweepy.OAuthHandler(am_consumer_key, am_consumer_secret)
 am_auth.set_access_token(am_access_token, am_access_token_secret)
 
