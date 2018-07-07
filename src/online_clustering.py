@@ -211,5 +211,5 @@ def final_wrapper(file_name_ds, use_tfidf):
     print(print_silhouette(active_clusters, inactive_clusters, use_tfidf, vec))
 
 #Main
-#dataset_name = 'dataset/dataset/2012-10-29.txt'
+#dataset_name = 'datasets/dataset/2012-10-29.txt'
 #final_wrapper(dataset_name, False)
