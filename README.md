@@ -20,6 +20,7 @@ are reacting during a disaster situation in
 order take proper actions both during and
 after the emergency.
 
-- Classification\\
+- Classification
+
 In order to perform classification of tweets among different classes run the module ClassificationMain.py
 You have to specifiy with class to perform the classification on among "Relevant", for revelance calssification, "Report", "Action", "Information", "Sentiment", "Movement", "Preparation" for finer-grained classificaiton. Running the module as it is will by default perform classification of "Information".
