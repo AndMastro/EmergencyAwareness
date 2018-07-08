@@ -1,5 +1,5 @@
 # Emergency Awareness On Social Media
-# Web Information Retrieval Project
+## Web Information Retrieval Project
 
 The aim of our project is the categorization
 of disater-related tweets. Our work
@@ -20,8 +20,15 @@ are reacting during a disaster situation in
 order take proper actions both during and
 after the emergency.
 
-- Classification
+### Classification
 
 In order to perform classification of tweets among different classes run the module ClassificationMain.py.
 
 You have to specifiy which class to perform the classification on among "Relevant", for revelance calssification, and "Report", "Action", "Information", "Sentiment", "Movement", "Preparation" for finer-grained classification. Running the module as it is will by default perform classification of "Information".
+
+### Clustering
+
+In order to run the clustering of tweets run the module ClusteringMain.py
+
+Editing the parameters in the script is possible to specify the dataset-file on which run the clustering (the two specified in the script are the labeled dataset, and the other is the one used to build the test set), the delta and the time interval (in seconds) to de-activate the cluster. It is also possible decide wheteher use tf-idf or Word Embeddings (the latter is the default), and whether filter the tweets using the burst detection module.
+The script will generate a .csv with the clusters.
