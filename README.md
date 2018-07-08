@@ -24,7 +24,7 @@ after the emergency.
 
 In order to perform classification of tweets among different classes run the module ClassificationMain.py.
 
-You have to specifiy which class to perform the classification on among "Relevant", for revelance calssification, and "Report", "Action", "Information", "Sentiment", "Movement", "Preparation" for finer-grained classification. Running the module as it is will by default perform classification of "Information".
+By editing the parameters in the script, you have to specifiy which class to perform the classification on among "Relevant", for revelance calssification, and "Report", "Action", "Information", "Sentiment", "Movement", "Preparation" for finer-grained classification. Running the module as it is will by default perform classification of "Information".
 
 ### Clustering
 
