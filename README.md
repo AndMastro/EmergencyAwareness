@@ -1,7 +1,7 @@
 # Emergency Awareness On Social Media
 # Web Information Retrieval Project
 
-The aim of our project1 is the categorization
+The aim of our project is the categorization
 of disater-related tweets. Our work
 is divided into 3 tasks. Firstly, we classify
 disaster-related tweets into predefined
