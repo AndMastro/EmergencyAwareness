@@ -86,7 +86,7 @@ def run_clustering(day_name, delta, time_delta, use_burst = False, expectation_f
     helper = {} 
 
     for el in database: 
-        helper[database[el]['text']] = (el,database[el]['annotations'])  
+        helper[database[el]['full_text']] = (el,database[el].get('annotations',[]))  
  
     out_fs = open(out, mode = 'w') 
  
